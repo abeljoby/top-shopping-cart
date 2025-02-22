@@ -1,11 +1,17 @@
-import styles from './Item.module.css'
 import { use, useState } from 'react'
+import styled from 'styled-components';
+
+const ShopItem = styled.div`
+    height: 16rem;
+    width: 8rem;
+    border: 2px solid red;
+`;
 
 function Item({ name, url, amount }) {
     const [count, setCount] = useState(0);
     
     return (
-        <div className='item'>
+        <ShopItem>
             <img src={url} alt={`A picture of ${name}`} />
             <span>{name} {amount}</span>
             <div className='adder'>
@@ -13,7 +19,7 @@ function Item({ name, url, amount }) {
                 <span>{count}</span>
                 <button type="button" onClick={()=> setCount(count+1)}>+</button>
             </div>
-        </div>
+        </ShopItem>
     )
 }
 
