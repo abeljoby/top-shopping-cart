@@ -1,12 +1,74 @@
+@font-face {
+  font-family: 'Inter';
+  src: local('Inter'), url(./assets/fonts/Inter-VariableFont_opsz\,wght.ttf) format('ttf');
+}
+
+@font-face {
+  font-family: 'Inter Italic';
+  src: local('Inter Italic'), url(./assets/fonts/Inter-Italic-VariableFont_opsz\,wght.ttf) format('ttf');
+}
+
+@font-face {
+  font-family: 'Bauhaus Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Bauhaus Regular'), url(./assets/fonts/BauhausRegular.woff) format('woff');
+}
+
+
+@font-face {
+  font-family: 'Bauhaus Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Bauhaus Italic'), url(./assets/fonts/BauhausItalic.woff) format('woff');
+}
+
+
+@font-face {
+  font-family: 'Bauhaus Bold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Bauhaus Bold'), url(./assets/fonts/BauhausBold.woff) format('woff');
+}
+
+
+@font-face {
+  font-family: 'Bauhaus Bold Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Bauhaus Bold Italic'), url(./assets/fonts/BauhausBoldItalic.woff) format('woff');
+}
+
+.bauhausRegular {
+  font-family: 'Bauhaus Regular', 'Inter';
+}
+
+.inter {
+  font-family: 'Inter', Verdana, sans-serif;
+}
+
 .header {
+  composes: bauhausRegular;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding: 2rem;
 }
 
 .header a {
   text-decoration: none;
   color: black;
+}
+
+.logo {
+  height: 4rem;
+  width: auto;
+}
+
+.logoLink {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
 }
 
 .nav {
@@ -20,8 +82,14 @@
   align-items: center;
 }
 
-.cartIcon {
-  width: 16px;
-  height: 16px;
+.cartLink {
+  composes: inter;
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
 }
 
+.cartIcon {
+  width: 1.5rem;
+  height: 1.5rem;
+}
