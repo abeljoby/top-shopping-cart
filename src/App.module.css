@@ -1,58 +1,26 @@
 @font-face {
-  font-family: 'Inter';
-  src: local('Inter'), url(./assets/fonts/Inter-VariableFont_opsz\,wght.ttf) format('ttf');
-}
-
-@font-face {
-  font-family: 'Inter Italic';
-  src: local('Inter Italic'), url(./assets/fonts/Inter-Italic-VariableFont_opsz\,wght.ttf) format('ttf');
-}
-
-@font-face {
   font-family: 'Bauhaus Regular';
   font-style: normal;
   font-weight: normal;
-  src: local('Bauhaus Regular'), url(./assets/fonts/BauhausRegular.woff) format('woff');
+  src: local('Bauhaus Regular'), url(./assets/fonts/logoFont.woff) format('woff');
 }
 
-
-@font-face {
-  font-family: 'Bauhaus Italic';
-  font-style: normal;
-  font-weight: normal;
-  src: local('Bauhaus Italic'), url(./assets/fonts/BauhausItalic.woff) format('woff');
-}
-
-
-@font-face {
-  font-family: 'Bauhaus Bold';
-  font-style: normal;
-  font-weight: normal;
-  src: local('Bauhaus Bold'), url(./assets/fonts/BauhausBold.woff) format('woff');
-}
-
-
-@font-face {
-  font-family: 'Bauhaus Bold Italic';
-  font-style: normal;
-  font-weight: normal;
-  src: local('Bauhaus Bold Italic'), url(./assets/fonts/BauhausBoldItalic.woff) format('woff');
-}
-
-.bauhausRegular {
-  font-family: 'Bauhaus Regular', 'Inter';
+.logoFont {
+  font-family: 'Sans Normalcy', 'Bauhaus Regular', InterVariable, RedactRect, Inter, Verdana, sans-serif;
 }
 
 .inter {
-  font-family: 'Inter', Verdana, sans-serif;
+	font-family: InterVariable, RedactRect, Inter, BlinkMacSystemFont,
+		'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans',
+		'Helvetica Neue', sans-serif;
+  font-feature-settings: 'case', 'ss01', 'ss04';
 }
 
 .header {
-  composes: bauhausRegular;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 2rem;
+  padding: 1rem 2rem;
 }
 
 .header a {
@@ -66,8 +34,9 @@
 }
 
 .logoLink {
+  composes: logoFont;
   display: flex;
-  gap: 1rem;
+  gap: 0.5rem;
   align-items: center;
 }
 
@@ -83,13 +52,12 @@
 }
 
 .cartLink {
-  composes: inter;
   display: flex;
   align-items: center;
   gap: 0.25rem;
 }
 
 .cartIcon {
-  width: 1.5rem;
-  height: 1.5rem;
+  width: 2rem;
+  height: 2rem;
 }

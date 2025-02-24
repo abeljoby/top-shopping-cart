@@ -48,6 +48,57 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Custom CSS */
 
+@font-face {
+  font-family: 'Bauhaus Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Bauhaus Regular'), url(./assets/fonts/BauhausRegular.woff) format('woff');
+}
 
+@font-face {
+  font-family: 'Bauhaus Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Bauhaus Italic'), url(./assets/fonts/BauhausItalic.woff) format('woff');
+}
 
+@font-face {
+  font-family: 'Bauhaus Bold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Bauhaus Bold'), url(./assets/fonts/BauhausBold.woff) format('woff');
+}
 
+@font-face {
+  font-family: 'Bauhaus Bold Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Bauhaus Bold Italic'), url(./assets/fonts/BauhausBoldItalic.woff) format('woff');
+}
+
+@font-face {
+	font-family: 'Sans Normalcy';
+	font-style: normal;
+	font-weight: 700;
+	font-display: swap;
+	src: url(./assets/fonts/Sans-Normalcy.woff2)
+		format('woff2');
+}
+
+@font-face {
+	font-family: RedactRect;
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	src: url(./assets/fonts/RedactRect.woff2)
+		format('woff2');
+	unicode-range: U+2588;
+}
+
+:root {
+  font-size: 0.95em;
+	font-family: InterVariable, RedactRect, Inter, BlinkMacSystemFont,
+		'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans',
+		'Helvetica Neue', sans-serif;
+	font-feature-settings: 'case', 'ss01', 'ss04';
+}
