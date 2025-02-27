@@ -6,15 +6,34 @@ const ShopItem = styled.div`
     height: 16rem;
     width: 12rem;
     padding: 4px;
-    border: 2px solid red;
+    /* border-width: 1px; */
+    /* border-top: 1px solid black;
+    border-right: 1px solid black; */
+    /* border: 1px solid gray; */
     display: flex;
     flex: 0 0 auto;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
 
+    &:hover {
+        box-shadow: -4px 4px;
+        transition: box-shadow 100ms ease-in-out 0ms, transform 100ms ease-in-out 0ms;
+        /* border-width: 4px; */
+        border: 1px solid black;
+        transform: scale(1.01);
+    }
+
     a {
         align-self: start;
+        text-decoration: none;
+        color: black;
+        font-size: large;
+        font-weight: 600;
+    }
+
+    a:hover {
+        text-decoration: underline;
     }
 `;
 
