@@ -76,13 +76,6 @@ export const scpItems = {
         stock: 1, 
         price: 500, // Mental and disease protection? Priceless.
     },
-    "SCP-999": {
-        name: "SCP-999",
-        url: "https://scp-wiki.wikidot.com/scp-999",
-        imageUrl: "https://scp-wiki.wikidot.com/local--files/scp-999/scp999.jpg",
-        stock: 1, 
-        price: 9999, // The ultimate source of happiness! Worth every penny.
-    },
     "SCP-4514": {
         name: "SCP-4514",
         url: "https://scp-wiki.wikidot.com/scp-4514",
