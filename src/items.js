@@ -72,58 +72,9 @@ export const scpItems = {
     "SCP-714": {
         name: "SCP-714",
         url: "https://scp-wiki.wikidot.com/scp-714",
-        imageUrl: "https://scp-wiki.wikidot.com/local--files/scp-714/scp714.jpg",
-        stock: 3, 
-        price: 200, // Mental and disease protection? Priceless.
-    },
-    "SCP-2952": {
-        name: "SCP-2952",
-        url: "https://scp-wiki.wikidot.com/scp-2952",
-        imageUrl: "https://scp-wiki.wikidot.com/local--files/scp-2952/scp2952.jpg",
-        stock: 7, 
-        price: 80, // Never-ruining socks, perfect for every occasion.
-    },
-    "SCP-261": {
-        name: "SCP-261",
-        url: "https://scp-wiki.wikidot.com/scp-261",
-        imageUrl: "https://scp-wiki.wikidot.com/local--files/scp-261/scp261.jpg",
+        imageUrl: "https://scp-wiki.wdfiles.com/local--files/scp-714/SCP-714.jpg",
         stock: 1, 
-        price: 500, // Get random anomalous snacks! (Some might be deadly.)
-    },
-    "SCP-294": {
-        name: "SCP-294",
-        url: "https://scp-wiki.wikidot.com/scp-294",
-        imageUrl: "https://scp-wiki.wikidot.com/local--files/scp-294/scp294.jpg",
-        stock: 1, 
-        price: 1000, // Infinite drinks, but be careful what you type.
-    },
-    "SCP-1162": {
-        name: "SCP-1162",
-        url: "https://scp-wiki.wikidot.com/scp-1162",
-        imageUrl: "https://scp-wiki.wikidot.com/local--files/scp-1162/scp1162.jpg",
-        stock: 1, 
-        price: 250, // A hole that gives you something you lost... in exchange for something else.
-    },
-    "SCP-143": {
-        name: "SCP-143",
-        url: "https://scp-wiki.wikidot.com/scp-143",
-        imageUrl: "https://scp-wiki.wikidot.com/local--files/scp-143/scp143.jpg",
-        stock: 20, 
-        price: 75, // Beautiful, durable ironwood flowers.
-    },
-    "SCP-228": {
-        name: "SCP-228",
-        url: "https://scp-wiki.wikidot.com/scp-228",
-        imageUrl: "https://scp-wiki.wikidot.com/local--files/scp-228/scp228.jpg",
-        stock: 6, 
-        price: 300, // A compass that points to what you most desire.
-    },
-    "SCP-2912": {
-        name: "SCP-2912",
-        url: "https://scp-wiki.wikidot.com/scp-2912",
-        imageUrl: "https://scp-wiki.wikidot.com/local--files/scp-2912/scp2912.jpg",
-        stock: 3, 
-        price: 120, // A sword that repairs itself and grows stronger.
+        price: 500, // Mental and disease protection? Priceless.
     },
     "SCP-999": {
         name: "SCP-999",
@@ -131,5 +82,26 @@ export const scpItems = {
         imageUrl: "https://scp-wiki.wikidot.com/local--files/scp-999/scp999.jpg",
         stock: 1, 
         price: 9999, // The ultimate source of happiness! Worth every penny.
+    },
+    "SCP-4514": {
+        name: "SCP-4514",
+        url: "https://scp-wiki.wikidot.com/scp-4514",
+        imageUrl: "https://scp-wiki.wdfiles.com/local--files/scp-4514/Vintage_Switchblade.jpg",
+        stock: 1,
+        price: 5,
+    },
+    "SCP-3866": {
+        name: "SCP-3866",
+        url: "https://scp-wiki.wikidot.com/scp-3866",
+        imageUrl: "https://scp-wiki.wdfiles.com/local--resized-images/scp-3866/pills.jpeg/medium.jpg",
+        stock: 40,
+        price: 55,
+    },
+    "SCP-1459-J": {
+        name: "████████",
+        url: "https://scp-wiki.wikidot.com/scp-1459-j",
+        imageUrl: "https://upload.wikimedia.org/wikipedia/commons/7/71/Black.png",
+        stock: 10,
+        price: 20,
     },
 };
